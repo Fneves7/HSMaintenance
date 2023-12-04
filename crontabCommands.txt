@@ -1,0 +1,14 @@
+Theese are some commands to put in the shell to create a cronjob for each of the functions previously created
+
+{localMachine}:~$ crontab -l
+#Start
+5 4 * * * /home/server/startserver.sh
+  
+#Restart
+#0 14 * * * /home/server/restart.sh
+  
+#Reboot
+0 4 * * * /home/server/reboot.sh
+  
+#Tests
+#0 0 * * * /home/server/teste.sh
